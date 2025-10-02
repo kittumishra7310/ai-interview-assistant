@@ -520,11 +520,6 @@ const IntervieweeView: React.FC<IntervieweeViewProps> = ({ currentInterview, onU
                 <ChatMessage author="user">
                     <p>{item.answer}</p>
                 </ChatMessage>
-                {item.feedback && typeof item.score !== 'undefined' && (
-                  <ChatMessage author="ai">
-                      <FeedbackMessage feedback={item.feedback} score={item.score} />
-                  </ChatMessage>
-                )}
               </>
             )}
           </div>
