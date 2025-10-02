@@ -1,20 +1,75 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AI Interview Assistant
 
-# Run and deploy your AI Studio app
+> A smart assistant to help you in technical and behavioral interviews using AI-powered responses.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## 🚀 Features
 
-## Run Locally
+- Real-time question detection and answer generation  
+- Speech-to-text and text-to-speech support  
+- Integration with large language models (e.g. OpenAI / Gemini)  
+- Friendly UI to view transcripts and responses  
+- Mute / unmute answers / toggle audio  
+- Simple configuration for your API key  
 
-**Prerequisites:**  Node.js
+---
+
+## 📂 Repository Structure
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+ai-interview-assistant/
+├── src/ # Source code (frontend / backend)
+├── assets/ # Images, icons, static files
+├── README.md # This readme file
+├── .gitignore
+├── package.json / requirements.txt
+└── ...other config files
+
+
+---
+
+
+---
+
+## 🛠 Prerequisites
+
+- Node.js (>=14) / Python (>=3.7) (depending on your tech stack)  
+- A valid **OpenAI / Gemini / LLM API key**  
+- Internet connection  
+
+---
+
+## 💻 Installation & Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/kittumishra7310/ai-interview-assistant.git
+cd ai-interview-assistant
+
+# 2. Install dependencies
+npm install        # for Node.js projects
+# or
+pip install -r requirements.txt  # for Python projects
+
+# 3. Configure your API key
+# Create a .env file (or use environment variables) with:
+# Gemini_API_KEY=your_api_key_here
+
+# 4. Start the application
+npm start          # for Node.js
+# or
+python main.py     # for Python projects
+
+# 5. Open the app in your browser (usually http://localhost:3000)
+
+
+
+📞 Contact
+
+If you have any questions or feedback, feel free to reach out to me (GitHub user kittumishra7310).
+
+
+
+
